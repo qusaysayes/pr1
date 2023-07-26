@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color:rgb(20, 20, 20) ;  
+  display: flex;
+}
+
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid wheat;
+    flex-shrink: 0;
+
+}
+.img-box img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+font-size: 14px;
+text-transform: capitalize;
+display: 
+
+
+}
+
+
+.menu{
+
+    background-color: #2a2cc9;
+    width: 50px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+ul{
+    list-style: none;
+    position: relative;
+height: 95%;
+
+
+}
+
+.menu:hover{
+    width: 260px;
+}
+
+
+
+
+
+
+ul li a{
+    display: block;
+    text-decoration: none;
+
+    padding: 10px;
+    margin: 10px 0;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 40px;
+transition: .5s;
+
+}
+ul li a:hover{
+    background-color: rgb(14, 0, 51) ;
+
+
+}
+.out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.out a{
+    background-color: rgb(26, 17, 17);
+    
+}
+ul li a i{
+font-size: 23px;
+
+
+
+
+}
+
+
+.content{
+    background-color: rgb(11, 11, 61);
+    width: 100%;
+margin: 10px;
+justify-content: space-between;
+
+
+}
+.title-info{
+    background-color: #2a2cc9;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 8px;
+margin: 10px 0;
+
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+    width: 18px;
+    
+
+}
+.data-info .box{
+background-color: rgb(241, 218, 9);
+height: 150px;
+flex-basis: 150px;
+flex-grow: 1;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.data-info .box:hover{
+    background-color: rgb(151, 138, 15);
+}
+.data-info .box{
+    font-size: 25px;
+}
